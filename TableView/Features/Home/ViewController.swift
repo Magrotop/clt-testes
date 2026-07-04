@@ -31,6 +31,12 @@ class ViewController: UIViewController {
         configView()
         
         title = "Home"
+        navigationItem.rightBarButtonItem = editButtonItem
+    }
+    
+    override func setEditing(_ editing: Bool, animated: Bool) {
+        super.setEditing(editing, animated: animated)
+        tableView.setEditing(editing, animated: animated)
     }
     
     private func configView() {
@@ -55,6 +61,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = titulosCelulas[indexPath.row]
+        cell.accessoryType = .disclosureIndicator
+        cell.tintColor = .systemRed
         return cell
     }
     
@@ -69,5 +77,18 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             let viewController = GraficoViewController()
             navigationController?.pushViewController(viewController, animated: true)
         }
+    }
+    
+    // Mantém a possibilidade de reordenar
+//    func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+//        true
+//    }
+    
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+    }
+    
+    // Remove o botão vermelho de exclusão
+    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        return .none
     }
 }

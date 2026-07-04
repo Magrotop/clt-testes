@@ -14,6 +14,8 @@
 		544C38892FD4AB6600B5655C /* ComponentesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544C38882FD4AB5F00B5655C /* ComponentesViewController.swift */; };
 		544C388D2FD4AC4300B5655C /* SparklineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544C388C2FD4AC3D00B5655C /* SparklineView.swift */; };
 		544C38902FD4ADE000B5655C /* ComponentePadraoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544C388F2FD4ADCE00B5655C /* ComponentePadraoTableViewCell.swift */; };
+		545A2A372FF992200082B60D /* GraficoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A2A362FF992170082B60D /* GraficoTableViewCell.swift */; };
+		545A2A392FF9B09D0082B60D /* GraficoServicoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A2A382FF9B0950082B60D /* GraficoServicoTableViewCell.swift */; };
 		5498ABC72FE735B80074EDF2 /* GraficoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5498ABC62FE735AE0074EDF2 /* GraficoViewController.swift */; };
 		5498ABC92FE735F70074EDF2 /* GraficoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5498ABC82FE735E90074EDF2 /* GraficoScreen.swift */; };
 		5498ABCD2FE7385E0074EDF2 /* GraficoBarraV0Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5498ABCC2FE7384A0074EDF2 /* GraficoBarraV0Component.swift */; };
@@ -26,6 +28,7 @@
 		54AE73322A4A802F00818FEE /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AE73312A4A802F00818FEE /* TableViewTests.swift */; };
 		54AE733C2A4A802F00818FEE /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AE733B2A4A802F00818FEE /* TableViewUITests.swift */; };
 		54AE733E2A4A802F00818FEE /* TableViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AE733D2A4A802F00818FEE /* TableViewUITestsLaunchTests.swift */; };
+		54C191422FF9BA70006646E8 /* GraficoEditarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C191412FF9BA5C006646E8 /* GraficoEditarTableViewCell.swift */; };
 		82D6442E6A5B740E2709E3F3 /* Pods_TableViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFDF6459C5E93CD578D3B02 /* Pods_TableViewTests.framework */; };
 		DC1AAF4127F78C62542B03DE /* Pods_TableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0CE57B33BAB33EE627E333 /* Pods_TableView.framework */; };
 		EC19FA219F29F381FA83EAF8 /* Pods_TableViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E63032D2BFF464446D1A72F /* Pods_TableViewUITests.framework */; };
@@ -57,6 +60,8 @@
 		544C38882FD4AB5F00B5655C /* ComponentesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentesViewController.swift; sourceTree = "<group>"; };
 		544C388C2FD4AC3D00B5655C /* SparklineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparklineView.swift; sourceTree = "<group>"; };
 		544C388F2FD4ADCE00B5655C /* ComponentePadraoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentePadraoTableViewCell.swift; sourceTree = "<group>"; };
+		545A2A362FF992170082B60D /* GraficoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficoTableViewCell.swift; sourceTree = "<group>"; };
+		545A2A382FF9B0950082B60D /* GraficoServicoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficoServicoTableViewCell.swift; sourceTree = "<group>"; };
 		5498ABC62FE735AE0074EDF2 /* GraficoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficoViewController.swift; sourceTree = "<group>"; };
 		5498ABC82FE735E90074EDF2 /* GraficoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficoScreen.swift; sourceTree = "<group>"; };
 		5498ABCC2FE7384A0074EDF2 /* GraficoBarraV0Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficoBarraV0Component.swift; sourceTree = "<group>"; };
@@ -73,6 +78,7 @@
 		54AE73372A4A802F00818FEE /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AE733B2A4A802F00818FEE /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		54AE733D2A4A802F00818FEE /* TableViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54C191412FF9BA5C006646E8 /* GraficoEditarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficoEditarTableViewCell.swift; sourceTree = "<group>"; };
 		5BD8C540A1D40ABF3A917C2F /* Pods-TableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTests.debug.xcconfig"; path = "Target Support Files/Pods-TableViewTests/Pods-TableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A20F19FD916C62D9B97C61D /* Pods-TableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewUITests.debug.xcconfig"; path = "Target Support Files/Pods-TableViewUITests/Pods-TableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		803EBB6FF68ECBF2CA45EDB0 /* Pods-TableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView.release.xcconfig"; path = "Target Support Files/Pods-TableView/Pods-TableView.release.xcconfig"; sourceTree = "<group>"; };
@@ -248,6 +254,16 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		545A2A352FF9920F0082B60D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				54C191412FF9BA5C006646E8 /* GraficoEditarTableViewCell.swift */,
+				545A2A382FF9B0950082B60D /* GraficoServicoTableViewCell.swift */,
+				545A2A362FF992170082B60D /* GraficoTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		5498ABC32FE7357F0074EDF2 /* Graficos */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +275,7 @@
 		5498ABC42FE7358F0074EDF2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				545A2A352FF9920F0082B60D /* Cell */,
 				5498ABCA2FE738370074EDF2 /* Componentes */,
 				5498ABC52FE735950074EDF2 /* ViewController */,
 			);
@@ -592,13 +609,16 @@
 				544C388D2FD4AC4300B5655C /* SparklineView.swift in Sources */,
 				5424D54F2FC7DFB20088840D /* MultiplasViewControllerViewModel.swift in Sources */,
 				54AE731F2A4A802C00818FEE /* ViewController.swift in Sources */,
+				545A2A372FF992200082B60D /* GraficoTableViewCell.swift in Sources */,
 				5498ABC92FE735F70074EDF2 /* GraficoScreen.swift in Sources */,
 				54AE731B2A4A802C00818FEE /* AppDelegate.swift in Sources */,
 				5498ABC72FE735B80074EDF2 /* GraficoViewController.swift in Sources */,
+				54C191422FF9BA70006646E8 /* GraficoEditarTableViewCell.swift in Sources */,
 				544C38892FD4AB6600B5655C /* ComponentesViewController.swift in Sources */,
 				5424D5582FC7EB6B0088840D /* MultiplasTipoTableViewCell.swift in Sources */,
 				54AE731D2A4A802C00818FEE /* SceneDelegate.swift in Sources */,
 				5424D54D2FC7DFA10088840D /* MultiplasViewControllerModel.swift in Sources */,
+				545A2A392FF9B09D0082B60D /* GraficoServicoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
